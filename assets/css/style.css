@@ -244,7 +244,15 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  height: auto;
+  width: auto;
   max-height: 40px;
+}
+
+@media (max-width: 768px) {
+  #header #logo img {
+    max-height: 25px; /* Reduce logo size for smaller screens */
+  }
 }
 
 /*--------------------------------------------------------------
@@ -705,7 +713,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro p {
   color: #4e4e4e;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 20px;
 }
 
@@ -723,7 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sub-heading {
   color: #070b17;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 35px!important;
 }
 
