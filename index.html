@@ -60,6 +60,9 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/jquery.countdown.min.js"></script>
+
 <script>
   function hideSnackbar() {
     // Get the snackbar DIV
@@ -95,7 +98,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.html">Home</a></li>
           <li><a href="#overview">Overview</a></li>
-          <li><a href="#info">Intro</a></li>
+          <li><a href="#info">CfP</a></li>
           <!-- <li><a href="#scopes">Scopes</a></li> -->
           <li><a href="#speakers">People</a></li>
           <li><a href="#agenda">Program</a></li>
@@ -143,45 +146,8 @@
         <div class="tab-content row justify-content-left" data-aos-delay="700">
           <p style="color: white">
             As imaging technologies, both software and hardware, advance, they surpass traditional capabilities, capturing and interpreting visual information beyond the limits of human perception. While these cutting-edge computational imaging systems push the boundaries of what can be seen and understood, they also quietly introduce critical ethical concerns related to privacy, safety, and robustness. Since these systems operate beyond human vision, many potential threats remain imperceptible, making them more difficult to detect and mitigate.
-            This workshop aims to bring attention to these challenges and explore innovative solutions to deal with these challengings as imaging technologies push the boundaries of perceiving the invisible. 
             <br><br>
           
-            
-          </p>
-          
-          
-
-        </div>
-
-              <div class="tab-content row justify-content-left" data-aos-delay="700">
-          <!-- <h3 class="quote-style-inv">Call for papers</h3> -->
-          <p class="quote-style-inv" style="color: white">
-        <b>CALL FOR PAPERS</b><br>
-         We will call for extended abstract submission of works already accepted by previous top conferences or unpublished works. 
-         <br>
-        Additionally, we will invite accepted papers from the main conference (ICCV 2025).
-        </p>
-
-        <p class="quote-style-inv" style="color: white">
-        <b>CALL FOR DEMOS</b><br>
-         We will also call for demos.
-            </p>
-            </div>
-
-          
-      </div>
-    </section>
-
-    <section id="info" class="section-with-bg">
-      <div class="container">
-
-        <div class="section-header">
-          <h2 style="color: #191919">Introduction</h2>
-        </div>
-            
-        As advanced imaging systems achieve significant performance improvements, they also raise important ethical concerns.
-            <br><br>
-
             <b class="inline-quote-style">Imaging Privacy</b> Privacy concerns have gained increasing attention in the computer vision community, particularly as the progression of data-driven methods demands vast and often sensitive datasets. While traditional discussions have focused on visible privacy risks, advanced imaging systems can capture <I>invisible yet private</I> signals, introducing a new class of threats.
             Researchers have demonstrated how seemingly innocuous reflections/interreflections captured by a conventional camera—from a wall (<a href="https://people.csail.mit.edu/torralba/research/accidentalcameras/">Torralba et al, 2012</a>, <a href="https://arxiv.org/abs/2108.13027">Sharma et al., 2021</a>), a corner (<a href="https://people.csail.mit.edu/klbouman/cornercameras.html">Bouman et al., 2017</a>), the human
             eyes (<a href="https://cave.cs.columbia.edu/projects/categories/project?cid=Computational%20Imaging&pid=Eyes%20for%20Relighting">Nishino and Nayar, 2004</a>, <a href="https://world-from-eyes.github.io/">Alzayer et al., 2024</a>), a bag of chips (<a href="https://grail.cs.washington.edu/projects/bagofchips/">Park et al., 2020</a>), or a soda cans (<a href="https://kovenyu.com/alp/">Yu et al., 2023</a>)—can be leveraged
@@ -205,6 +171,37 @@
             of perceiving beyond human vision—poses significant challenges. For instance, it is possible to design
             attack patterns that are imperceptible to the human eye yet can effectively compromise these systems (<a href="https://camera-agnostic.github.io/">Wei et al., 2024</a>, <a href="https://github.com/weihui1308/HOTCOLDBlock">Wei et al., 2023</a>, <a href="https://arxiv.org/abs/2503.00377">Lin et al., 2025</a>). Besides, the emitted energy from active imaging system can bring interference and lead to potential risks.
 
+          <br><br>
+          This workshop aims to bring attention to these challenges and explore innovative solutions to deal with these challengings as imaging technologies push the boundaries of perceiving the invisible. 
+
+          </p>
+          
+          
+
+        </div>
+        
+
+              <!-- <div class="tab-content row justify-content-left" data-aos-delay="700">
+          <p class="quote-style-inv" style="color: white;">
+        <b>CALL FOR PAPERS</b><br>
+         We accept submissions in the following two tracks. Accepted papers will be presented as posters or demos.
+         </p></div> -->
+         
+          
+      </div>
+    </section>
+
+    <section id="info" class="section-with-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h2 style="color: #191919">🔥 🔥 🔥 Call for Papers </h2>
+        </div>
+            
+            <!-- <br><br> -->
+
+            
+
         <!-- </div>
       </section>
 
@@ -216,20 +213,24 @@
           </div> -->
               
               <br><br>
+          <h3>Topics</h3>
             
-            The workshop will cover a wide range of topics at the intersection of imaging systems and ethics, including but not limited to the following:
-            <br>
-            <b >Illuminating the ‘Darkside’ of See Invisible</b>
+            The workshop will cover a broad range of topics at the intersection of imaging systems and ethics.
+              As an imaging-related workshop, <I>we welcome submissions that showcase the effectiveness and capabilities of imaging technologies</I>, but we strongly encourage authors to also include discussions on the potential risks, limitations, or ethical concerns associated with their use.
+              Topics of interest include, but are not limited to, the following:
+            <br><br>
+            <b >Illuminating the ‘Darkside’ of See Invisible</b> 
             <ul>
-              <li>Revealing hidden information using passive imaging systems, e.g., ‘EyeCamera’, Infrared camera</li>
+              <li>Revealing hidden information using passive imaging systems, e.g., Eye camera, Corner camera, Infrared camera</li>
               <li>Revealing hidden information using active imaging systems, e.g., NLOS, ToF</li>
               <li>Privacy-preserving boundaries of minimalistic optical systems, e.g., single-pixel imaging, lensless imaging, event cameras</li>
               <li>Safety concerns in active imaging systems that threaten humans, e.g., laser safety, UV safety</li>
               <li>Interference that threatens other imaging systems</li>
-              <li>Robustness issues of AI systems equipped with advanced imaging devices</li>
+              <li>Robustness issues of AI systems equipped with advanced imaging devices, e.g., physical adversarial attack</li>
               <li>Ethical risks in different imaging fields, e.g., medical imaging, biological imaging</li>
             </ul>
             
+
             <b>Building Responsible Imaging Systems</b>
             <ul>
               <li>Privacy-Preserving Imaging System, e.g., imaging systems with access control</li>
@@ -238,7 +239,139 @@
               <li>End-to-end design of advanced imaging hardware with safety/privacy/robustness constraints</li>
             </ul>
 
+
+
+            <br>
+            <h3>Guidelines</h3>
+          
+            We accept submissions in the following tracks. Accepted papers may be presented as either posters or demos, depending on the authors' preference. 💰💰💰 We will provide a best paper award, a best poster award and a best demo award, sponsored by Snap Inc. 
+
+            <div class="tab-content row justify-content-left" data-aos-delay="700">
+              <ul>
+                <li><strong>Novel Work:</strong> This track welcomes early-stage research that has not yet undergone peer review. We actively encourage the submission of works-in-progress and emerging ideas to foster discussion and collaboration among participants. Please use the <a href="https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines#:~:text=Please%20download%20the-,ICCV%202025%20Author%20Kit,-for%20detailed%20formatting" >ICCV 2025 template</a>.               
+                  Submissions in this track will be reviewed for relevance and soundness.
+                  <ul>
+                    <li><strong>Proceedings:</strong> If you would like your work to be included in the ICCV proceedings, please submit through this <a href="">OpenReview</a> by <strong>July 3, 2025</strong>. Submissions should be between 4 and 8 pages in length, excluding references. </li>
+                    <li><strong>Non-Proceedings:</strong> If you prefer not to be included in the ICCV proceedings, please submit through this <a href="">Openreview</a> by <strong>August 19, 2025</strong>. Submissions may take one of the following forms (excluding references):
+                      <ul>
+                        <li>Full Paper: 4–8 pages</li>
+                        <li>Short Paper: Up to 4 pages</li>
+                        <li>Tiny Paper / Extended Abstract: Up to 2 pages</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><strong>Published Work:</strong> This track invites submissions of works that have already been accepted at previous venues (e.g., CVPR, ICCV, ECCV, IJCV, TPAMI, ICCP, TCI, SIGGRAPH, etc.), including those accepted to the ICCV 2025 main conference. Submissions can be in any format and should be sent directly via email:  
+                  <a href="mailto:responsible.imaging@gmail.com">responsible.imaging@gmail.com</a>
+                </li>
+              </ul>
+             </p>
+
+            
+                 
+      
+            </div>
+
+            <h3>Timeline</h3>
+
+            <div class="col-sm-12 p-4 secondback">
+              <!-- <h1>Important Dates</h1> -->
+              <!-- <div class="p-2"></div> -->
+            
+              <table class="table table-condensed datesummary">
+                <col >
+            
+                <!-- Manuscript Submission Deadlines -->
+              <tr class="gray">
+                <td>Novel Work (Proceedings) Submission</td>
+                <td><span class="gray" style="text-align: right; display: block;">Jul. 3, 2025, 11:59 PM AoE</span></td>
+                <td>
+                  <span class="countdown-inproceedings-submission"></span>
+                  <script>
+                    var deadlineInProceedingsSubmission = "2025/07/03 11:59:59 UTC";
+                    $('.countdown-inproceedings-submission').countdown(deadlineInProceedingsSubmission, function (event) {
+                      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+                    });
+                  </script>
+                </td>
+              </tr>
+
+              <tr class="gray">
+                <td>Novel Work (Proceedings) Notification</td>
+                <td><span class="gray" style="text-align: right; display: block;">Jul. 10, 2025, 11:59 PM AoE</span></td>
+                <td>
+                  <span class="countdown-inproceedings-notification"></span>
+                  <script>
+                    var deadlineInProceedingsNotification = "2025/07/10 11:59:59 UTC";
+                    $('.countdown-inproceedings-notification').countdown(deadlineInProceedingsNotification, function (event) {
+                      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+                    });
+                  </script>
+                </td>
+              </tr>
+
+              <tr class="gray">
+                <td>Novel Work (Proceedings) Camera Ready</td>
+                <td><span class="gray" style="text-align: right; display: block;">Aug. 15, 2025, 11:59 PM AoE</span></td>
+                <td>
+                  <span class="countdown-inproceedings-camera"></span>
+                  <script>
+                    var deadlineInProceedingsCamera = "2025/08/15 11:59:59 UTC";
+                    $('.countdown-inproceedings-camera').countdown(deadlineInProceedingsCamera, function (event) {
+                      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+                    });
+                  </script>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Novel Work (Non-Proceedings) Submission</td>
+                <td><span class="gray" style="text-align: right; display: block;">Aug. 19, 2025, 11:59 PM AoE</span></td>
+                <td>
+                  <span class="countdown-nonproceedings-submission"></span>
+                  <script>
+                    var deadlineNonProceedingsSubmission = "2025/08/19 11:59:59 UTC";
+                    $('.countdown-nonproceedings-submission').countdown(deadlineNonProceedingsSubmission, function (event) {
+                      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+                    });
+                  </script>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Novel Work (Non-Proceedings) Notification</td>
+                <td><span class="gray" style="text-align: right; display: block;">Sep. 19, 2025, 11:59 PM AoE</span></td>
+                <td>
+                  <span class="countdown-nonproceedings-notification"></span>
+                  <script>
+                    var deadlineNonProceedingsNotification = "2025/09/19 11:59:59 UTC";
+                    $('.countdown-nonproceedings-notification').countdown(deadlineNonProceedingsNotification, function (event) {
+                      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+                    });
+                  </script>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Published Work Submission</td>
+                <td><span class="gray" style="text-align: right; display: block;">Sep. 19, 2025, 11:59 PM AoE</span></td>
+                <td>
+                  <span class="countdown-published-submission"></span>
+                  <script>
+                    var deadlinePublishedSubmission = "2025/09/19 11:59:59 UTC";
+                    $('.countdown-published-submission').countdown(deadlinePublishedSubmission, function (event) {
+                      $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+                    });
+                  </script>
+                </td>
+              </tr>
+
+      
+              </table>
+            </div>
+
       </div>
+
     </section>
 
 
@@ -246,7 +379,7 @@
       <div class="container">
         <div class="section-header">
           <h2 style="color: #191919">Sponsors</h2>
-        <p>Sponsors will support award for the best poster and demo.</p>
+        <p style="color: #191919">💰 Our sponsor will support awards for the best paper, poster and demo.</p>
         </div>
 
         <div class="container">
@@ -600,7 +733,7 @@
       <div class="copyright">
         <h3 style="color: white; text-decoration: underline;">Contact Us</h3>
         <p>
-          <a href="mailto: wangzx1994@gmail.com" style="color: white;">wangzx1994@gmail.com</a>
+          <a href="mailto: responsible.imaging@gmail.com" style="color: white;">responsible.imaging@gmail.com</a>
           </p>
       </div>
       <div class="credits">
@@ -657,6 +790,9 @@
       typeEffect();
     });
   </script>
+
+
+  
 
 </body>
 

@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: gray;
+  /* color: gray; */
 }
 
 .main-page {
@@ -1362,7 +1362,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #info a {
   /* font-weight: bold; */
-  color: #7f124e;
+  color: #8f0a32;
   /* text-decoration: underline dotted; */
 }
 
@@ -1756,6 +1756,15 @@ Secondary Speakers Section
   font-size:1em;
   text-align:left;
   font-weight:bold;
+}
+
+#coordination a {
+  color:#ccc;
+}
+
+#coordination a:hover {
+  color: rgb(246, 1, 1);  /* or any highlight color you prefer */
+  /* text-decoration: underline; */
 }
 
 #coordination .column {
@@ -3139,9 +3148,9 @@ SETTINGS
 }
 
 .inline-quote-style {
-  border-right: 1px solid #332d56; /* Vertical bar on the left */
+  border-right: 1px solid rgb(240, 242, 240); /* Vertical bar on the left */
   padding-right: 5px; /* Space between the bar and the text */
-  color: #332d56; /* Text color */
+  color: rgb(246, 1, 1); /* Text color #8573eb*/ 
   margin: 0px 0; /* Add vertical spacing */
 }
 
@@ -3151,6 +3160,16 @@ SETTINGS
   color: #fff; /* Text color */
   margin: 16px 0; /* Add vertical spacing */
 }
+
+/* .quote-style-inv ul {
+  font-size: 16px;
+}
+
+.quote-style-inv ul li {
+  margin-bottom: 16px;
+} */
+
+
 
 .company-logo {
   width: auto; 
